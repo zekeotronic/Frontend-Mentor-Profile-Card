@@ -123,3 +123,12 @@ body {
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
+
+@media only screen and (max-width: 400px) {
+  .card {
+    width: 90%;
+  }
+  .card-top {
+    background-image: url('images/bg-pattern-card.svg');
+  }
+}
