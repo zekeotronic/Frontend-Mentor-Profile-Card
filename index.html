@@ -7,29 +7,44 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <div class="main">
+    <div class="card">
+      <div class="card-top"></div>
+      <div class="card-mid">
+        <div class="pic">
+          <img src="images/image-victor.jpg" alt="Victor Crest Pic" class="profile-pic">
+        </div>
+        <div class="vitals">
+          <p class="name">Victor Crest</p>
+          <p class="age">26</p>
+        </div>
+        <div class="location">
+          <p class="locale">London</p>
+        </div>
+      </div>
+      <div class="card-foot">
+        <div class="stats">
+          <p id="stat1" class="stats-num">80K</p>
+          <p id="stat2" class="stat">Followers</p>
+          <p id="stat3" class="stats-num">803K</p>
+          <p id="stat4" class="stat">Likes</p>
+          <p id="stat5" class="stats-num">1.4K</p>
+          <p id="stat6" class="stat">Photos</p>
+        </div>
+      </div>
+    </div>
 
-  803K
-  Likes
+  </div>
 
-  1.4K
-  Photos
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/zekeotronic">Eric Ihle</a>.
   </div>
 </body>
 </html>
